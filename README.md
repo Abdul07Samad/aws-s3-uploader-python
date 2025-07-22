@@ -1,28 +1,28 @@
-AWS S3 Uploader (Python + Boto3)
+ 🗂️ AWS S3 Uploader with Python (Boto3)
 
+This is a simple Python script to upload a file to an AWS S3 bucket using the Boto3 library.
 
+✅ Features
 
-This is a simple Python script to upload a file to AWS S3 using Boto3.
+- Upload any local file to AWS S3
+- Uses AWS CLI credentials (already configured)
+- Command-line and Python script both supported
+- Clean error handling (missing file, credentials, permission errors)
 
+ 🛠️ Requirements
 
+- Python 3.13+
+- Boto3 (`pip install boto3`)
+- AWS credentials configured via `aws configure`
 
-🛠 Requirements
+🚀 How to Use
 
-
-
-\- Python 3.13+
-
-\- AWS CLI configured (`aws configure`)
-
-\- boto3 (install via `pip install -r requirements.txt`)
-
-
-
-How to Use
-
+bash
 pip install -r requirements.txt
+python s3_checker.py
 
-python s3\_checker.py
-
-
-
+aws-s3-uploader-python/
+│
+├── s3_checker.py        
+├── requirements.txt     
+└── README.md            
